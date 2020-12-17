@@ -1,0 +1,66 @@
+.main-block {
+    height: 100vh;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    
+}
+
+.icon > .label {
+    display: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.icon.circle {
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 1.25em;
+    height: 2.25em;
+    left: 0;
+    line-height: 2.25em;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 2.25em;
+}
+
+.fa-twitter {
+background: #70aecd;
+    color: #fff;
+}
+
+.fa-facebook-f {
+    background: #7490c3;
+    color:#fff
+}
+
+.fa-angellist {
+    background: #df7b77;
+    color: #fff;
+}
+
+.fa-envelope {
+    background: #dcad8b;
+    color: #fff;
+}
+
+.fa-linkedin {
+    background: hsl(152, 38%, 63%);
+    color: #fff;
+}
+
+.icons {
+    text-align: center;
+    padding: 0;
+}
