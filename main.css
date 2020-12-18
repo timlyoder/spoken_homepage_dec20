@@ -64,3 +64,30 @@ background: #70aecd;
     text-align: center;
     padding: 0;
 }
+
+.copyright {
+    text-align: center;
+    padding: 0;
+}
+
+.copyright > li {
+    font-family: 'Crete Round', serif;
+}
+
+.footer {
+    height: 96px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer > img {
+    display: inline-block;
+}
+
+#footer-logo {
+    height: 100%;
+    display: inline-block;
+}
