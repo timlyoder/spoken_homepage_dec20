@@ -5,17 +5,59 @@
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
   <head>
     <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
-    
+    <title>Spoken - Text to Speech AAC App for Aphasia, Autism and Other Language Disorders</title>
+    <meta name="description" content="Spoken is the natural-language assistant for people with aphasia and other speech disorders. It’s an entirely new kind of augmentative and alternative communication that predicts the words you want next. You build real sentences quickly on your phone or tablet, and Spoken speaks them automatically.">
+    <meta name="keywords" content="Spoken,AAC,speech,aphasia,autism">
+    <meta name="author" content="Spoken Inc.">
 
+    <meta property="og:url" content="https://spokenaac.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Spoken - Text to Speech AAC App for Aphasia and Other Language Disorders">
+    <meta property="og:description" content="Spoken is the natural-language assistant for people with aphasia and other speech disorders. It’s an entirely new kind of augmentative and alternative communication that predicts the words you want next. You build real sentences quickly on your phone or tablet, and Spoken speaks them automatically.">
+    <meta property="og:image" content="https://spokenaac.com/images/spoken_new_fullrez-11.jpg">
+    <meta property="fb:app_id" content="689164021609457">
+    <meta name="apple-itunes-app" content="app-id=1034487817">
+    <meta name="google-play-app" content="app-id=com.spoken.app">
+    <link href="https://spokenaac.com" rel="canonical">
+    <link href="https://spokenaac.com" rel="home">
+
+    <!-- Analytics -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-JBFZ3LS9BN&l=dataLayer&cx=c"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+    <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyDrCF4e0wL1ceY3GnkLaCQStkFGbOvEebE",
+            authDomain: "launch-data.firebaseapp.com",
+            databaseURL: "https://launch-data.firebaseio.com",
+            projectId: "launch-data",
+            storageBucket: "launch-data.appspot.com",
+            messagingSenderId: "610459815724",
+            appId: "1:610459815724:web:77ee88fd667b25f5572689",
+            measurementId: "G-JBFZ3LS9BN"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          const analytics = firebase.analytics();
+        </script>
+    <script src="https://www.googletagmanager.com/gtag/js?l=dataLayer" async=""></script>
+
+    <!-- FontAwesome Icons -->
     <script src="https://kit.fontawesome.com/e7e72003c5.js" crossorigin="anonymous"></script>
+
+    <!-- I'm not sure if these IE <9 fixes are necessary -->
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="main.css">
 
   </head>
 
