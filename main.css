@@ -1,3 +1,18 @@
+h1 {
+    font-family: 'Sentinel';
+    font-weight: 900;
+    font-size: 42px;
+}
+
+a {
+    color: #187384;
+}
+
+.main-block {
+    display: none;
+}
+
+@media (min-width:481px) {
 .main-block {
     height: 100vh;
     height: calc(100vh - 96px);
@@ -5,6 +20,13 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    display: block;
+}
+
+.mobile-img {
+    display: none;
+}
+
 }
 
 .container {
@@ -17,12 +39,35 @@
 
 .big-p {
     font-family: 'Crete Round', serif;
+    font-size: 32px;
+    max-width: 1024px;
+    padding: 28px 28px;
+    width: 100%;
+    margin: auto;
+    line-height: 40px;
+}
+
+.big-p-blue {
+    font-family: 'Crete Round', serif;
     font-size: 42px;
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 70px;
+    max-width: 1024px;
+    padding: 48px 98px;
+    width: 100%;
+    margin: auto;
     line-height: 55px;
+    color: #187384;
+}
+
+.brochure {
+    padding: 20px;
+}
+
+.brochure > svg {
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .icon > .label {
@@ -101,24 +146,41 @@ background: #70aecd;
     position: fixed;
     bottom: 0;
     text-align: center;
-}
-
-.footer > img {
-    display: inline-block;
+    -webkit-box-shadow: 0px -2px 9px 0px rgba(0,0,0,0.21); 
+    box-shadow: 0px -2px 9px 0px rgba(0,0,0,0.21);
 }
 
 #footer-logo {
     height: 100%;
     display: inline-block;
-    padding-right: 20%;
+    float: left;
 }
 
 #appstore-footer {
     padding-right: 2%;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    float: right;
 }
 
 #playstore-footer {
-    padding-bottom: 8px;
-    padding-right: 4%;
+    padding-top: 10px;
+    padding-right: 2%;
+    float: right;
 }
+
+
+
+#footer-wordmark {
+    display: none;
+}
+
+
+@media (min-width:481px) {
+
+#footer-wordmark {
+    display: inline-block;
+    float: left;
+    height: 100%;
+}
+}
+   
