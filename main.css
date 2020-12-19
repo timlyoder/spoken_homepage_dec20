@@ -3,6 +3,7 @@ body {
     font-family: 'Crete Round', 'Georgia', serif;
     font-size: 36px;
     line-height: 48px;
+    color: #262322;
 }
 
 p, h1 {
@@ -19,6 +20,7 @@ h1 {
     font-size: 72px;
     line-height: 72px;
     padding-top: 32px;
+    color: #D9583F
 }
 
 a {
@@ -43,6 +45,11 @@ a {
 
 .brochure > img {
     width: 100%;
+}
+
+
+.brochure h1 {
+    color: #262322;
 }
 
 .full-width {
@@ -146,6 +153,7 @@ li {
     .main-block {
         height: 100vh;
         height: calc(100vh - 96px);
+        max-height: 1280px;
         max-width: 1024px;
         margin-left: auto;
         margin-right: auto;
@@ -156,7 +164,7 @@ li {
     .mobile-img {
         display: none;
     }
-    
+
     #footer-wordmark {
         display: block;
         float: left;
