@@ -1,34 +1,28 @@
+
+body {
+    font-family: 'Crete Round', 'Georgia', serif;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+p, h1 {
+    width: 100%;
+    max-width: 1024px;
+    padding: 16px 32px;
+    margin: auto;
+}
+
 h1 {
     font-family: 'Sentinel';
     font-weight: 900;
     font-style: italic;
-    font-size: 42px;
+    font-size: 72px;
+    line-height: 72px;
+    padding-top: 32px;
 }
 
 a {
     color: #187384;
-}
-
-.main-block {
-    display: none;
-}
-
-@media (min-width:481px) {
-
-    .main-block {
-        height: 100vh;
-        height: calc(100vh - 96px);
-        max-width: 1024px;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden;
-        display: block;
-    }
-
-    .mobile-img {
-        display: none;
-    }
-
 }
 
 .container {
@@ -39,32 +33,15 @@ a {
     background-color: #CBE1E6;
 }
 
-.big-p {
-    font-family: 'Crete Round', serif;
-    font-size: 32px;
-    max-width: 1024px;
-    padding: 28px 28px;
-    width: 100%;
-    margin: auto;
-    line-height: 40px;
-}
-
-.big-p-blue {
-    font-family: 'Crete Round', serif;
-    font-size: 42px;
-    max-width: 1024px;
-    padding: 48px 98px;
-    width: 100%;
-    margin: auto;
-    line-height: 55px;
-    color: #187384;
+.main-block {
+    display: none;
 }
 
 .brochure {
     padding: 20px;
 }
 
-.brochure > svg {
+.brochure > img {
     width: 100%;
 }
 
@@ -98,47 +75,40 @@ li {
     text-decoration: none;
     top: 0;
     width: 2.25em;
+    color: #fff;
 }
 
 .fa-twitter {
-background: #70aecd;
-    color: #fff;
+    background: #70aecd;
 }
 
 .fa-facebook-f {
     background: #7490c3;
-    color:#fff
 }
 
 .fa-angellist {
     background: #df7b77;
-    color: #fff;
 }
 
 .fa-envelope {
     background: #dcad8b;
-    color: #fff;
 }
 
 .fa-linkedin {
     background: hsl(152, 38%, 63%);
-    color: #fff;
+}
+
+.icons, .copyright {
+    text-align: center;
+    padding: 0;
 }
 
 .icons {
-    text-align: center;
-    padding: 0;
     margin-top: 100px;
 }
 
 .copyright {
-    text-align: center;
-    padding: 0;
     margin-bottom: 200px;
-}
-
-.copyright > li {
-    font-family: 'Crete Round', serif;
 }
 
 .footer {
@@ -154,19 +124,12 @@ background: #70aecd;
 
 #footer-logo {
     height: 100%;
-    display: inline-block;
     float: left;
 }
 
-#appstore-footer {
+#appstore-footer, #playstore-footer {
     padding-right: 2%;
     padding-top: 10px;
-    float: right;
-}
-
-#playstore-footer {
-    padding-top: 10px;
-    padding-right: 2%;
     float: right;
 }
 
@@ -176,8 +139,26 @@ background: #70aecd;
 
 @media (min-width:481px) {
 
+    p, h1 {
+        padding: 64px 128px;
+    }
+
+    .main-block {
+        height: 100vh;
+        height: calc(100vh - 96px);
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        display: block;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+    
     #footer-wordmark {
-        display: inline-block;
+        display: block;
         float: left;
         height: 100%;
     }
