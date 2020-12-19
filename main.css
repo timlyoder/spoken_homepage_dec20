@@ -1,6 +1,7 @@
 h1 {
     font-family: 'Sentinel';
     font-weight: 900;
+    font-style: italic;
     font-size: 42px;
 }
 
@@ -13,19 +14,20 @@ a {
 }
 
 @media (min-width:481px) {
-.main-block {
-    height: 100vh;
-    height: calc(100vh - 96px);
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    display: block;
-}
 
-.mobile-img {
-    display: none;
-}
+    .main-block {
+        height: 100vh;
+        height: calc(100vh - 96px);
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        display: block;
+    }
+
+    .mobile-img {
+        display: none;
+    }
 
 }
 
@@ -168,19 +170,17 @@ background: #70aecd;
     float: right;
 }
 
-
-
 #footer-wordmark {
     display: none;
 }
 
-
 @media (min-width:481px) {
 
-#footer-wordmark {
-    display: inline-block;
-    float: left;
-    height: 100%;
-}
+    #footer-wordmark {
+        display: inline-block;
+        float: left;
+        height: 100%;
+    }
+
 }
    
