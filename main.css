@@ -13,7 +13,7 @@ p, h1 {
 }
 
 h1 {
-    font-family: 'Sentinel';
+    font-family: 'Sentinel', 'Georgia', serif;
     font-weight: 900;
     font-style: italic;
     font-size: 2em;
@@ -26,19 +26,11 @@ a {
     color: #187384;
 }
 
-.container {
+.container, .full-width {
     width: 100%;
 }
 
-.blue {
-    background-color: #CBE1E6;
-}
-
-.main-block {
-    display: none;
-}
-
-.brochure-container, .brochure {
+.blue, .brochure-container, .brochure {
     background-color: #CBE1E6;
 }
 
@@ -46,7 +38,7 @@ a {
     padding:0;
 }
 
-.brochure {
+.brochure, .text-section {
     padding: 1.5em;
 }
 
@@ -62,15 +54,7 @@ a {
     padding-top: .5em;
 }
 
-.text-section {
-    padding: 1.5em;
-}
-
-.full-width {
-    width: 100%;
-}
-
-.icon > .label {
+.main-block, #footer-wordmark, .icon > .label {
     display: none;
 }
 
@@ -158,9 +142,6 @@ li:last-of-type {
     float: right;
 }
 
-#footer-wordmark {
-    display: none;
-}
 
 @media (min-width:481px) {
 
@@ -237,5 +218,3 @@ li:last-of-type {
     }
 
 }
-
-   
