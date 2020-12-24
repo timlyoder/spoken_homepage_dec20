@@ -2,7 +2,7 @@
 body {
     font-family: 'Crete Round', 'Georgia', serif;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.333em;
     color: #262322;
 }
 
@@ -17,7 +17,7 @@ h1 {
     font-weight: 900;
     font-style: italic;
     font-size: 2em;
-    line-height: 2em;
+    line-height: 1em;
     color: #D9583F;
     margin-bottom: .5em;
 }
@@ -38,7 +38,7 @@ a {
     display: none;
 }
 
-.brochure-container {
+.brochure-container, .brochure {
     background-color: #CBE1E6;
 }
 
@@ -52,6 +52,7 @@ a {
 
 .brochure > img {
     width: 100%;
+    padding: 1em;
 }
 
 .brochure h1 {
@@ -163,7 +164,6 @@ li:last-of-type {
 
 @media (min-width:481px) {
 
-
     body {
         font-size: 2.25em;
     }
@@ -176,19 +176,7 @@ li:last-of-type {
         font-size: 2em;
         line-height: 1em;
         padding: 0 1em;
-    }
-
-    .brochure-container {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .brochure-container h1, .brochure-container p {
-        padding:0;
-    }
-
-    .brochure {
-        width: 30%;
+        padding-top: .5em;
     }
 
     .main-block {
@@ -220,5 +208,34 @@ li:last-of-type {
         display: inline-block;
     }
 
+    .brochure > img {
+        max-height: 480px;
+    }
+
 }
+
+@media (min-width:1025px) {
+
+    .brochure-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 2em;
+        margin-top: -8em;
+    }
+
+    .brochure-container h1, .brochure-container p {
+        padding:0;
+    }
+
+    .brochure {
+        padding: 1em;
+    }
+
+    .brochure > img {
+        height: 25vw;
+        max-height: 500px;
+    }
+
+}
+
    
