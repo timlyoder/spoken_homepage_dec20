@@ -137,8 +137,8 @@ li:last-of-type {
 }
 
 #appstore-footer, #playstore-footer {
-    padding-right: 2%;
-    padding-top: 10px;
+    margin: 16px;
+    height: 64px;
     float: right;
 }
 
