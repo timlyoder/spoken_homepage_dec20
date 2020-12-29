@@ -38,10 +38,6 @@ a {
     color: #187384;
 }
 
-.big-header {
-    font-size: 72px;
-}
-
 .container, .full-width {
     width: 100%;
 }
@@ -73,10 +69,6 @@ a {
     font-size: 2em;
     text-align: center;
     padding-top: .5em;
-}
-
-.question {
-    padding-bottom: 40px;
 }
 
 .main-block, #footer-wordmark, .icon > .label {
