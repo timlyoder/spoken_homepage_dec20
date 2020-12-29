@@ -16,10 +16,14 @@ h1 {
     font-family: 'Sentinel', 'Georgia', serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1em;
     color: #D9583F;
     margin-bottom: .5em;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 a {
@@ -39,7 +43,7 @@ a {
 }
 
 .brochure, .text-section {
-    padding: 1.5em;
+    padding: 2em;
 }
 
 .brochure > img {
@@ -49,7 +53,7 @@ a {
 
 .brochure h1 {
     color: #262322;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     padding-top: .5em;
 }
