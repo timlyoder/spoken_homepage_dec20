@@ -7,6 +7,15 @@
     padding-top: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #187384;
+}
+
 @media (min-width:481px) {
 
    p, h3 {
